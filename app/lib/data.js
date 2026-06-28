@@ -360,7 +360,7 @@ export const days = [
     label: "Jul 15",
     title: "Brunch & Spa Day",
     group: "Whole group (6) · last full day together",
-    note: "After today, it's just Mom, stepdad, and you.",
+    note: "Last full day everyone's together.",
     eventSlugs: ["brunchery-breakfast", "spa-day", "dinner-wed"],
   },
   {
@@ -537,17 +537,6 @@ export const dining = [
     mapQuery: "Beatrix restaurant Chicago",
   },
   {
-    title: "Sun Wah BBQ",
-    area: "Uptown",
-    cuisine: "Cantonese BBQ",
-    emoji: "🦆",
-    blurb:
-      "Famous Beijing duck dinner, big tables, and easy walk-ins for groups. A little north of downtown but worth it.",
-    price: "$$",
-    website: "https://www.sunwahbbq.com/",
-    mapQuery: "Sun Wah BBQ Chicago",
-  },
-  {
     title: "The Dearborn",
     area: "The Loop",
     cuisine: "American tavern",
@@ -557,5 +546,60 @@ export const dining = [
     price: "$$",
     website: "https://thedearborntavern.com/",
     mapQuery: "The Dearborn restaurant Chicago Loop",
+  },
+  {
+    title: "Bar Siena",
+    area: "West Loop",
+    cuisine: "Italian · pizza & small plates",
+    emoji: "🍕",
+    blurb:
+      "A big, lively two-story spot on West Loop's restaurant row. Shareable Italian street food, easy for a group, and open late.",
+    price: "$$",
+    website: "https://www.barsiena.com/",
+    mapQuery: "Bar Siena 832 W Randolph St Chicago",
+  },
+  {
+    title: "Greek Islands",
+    area: "Greektown / West Loop",
+    cuisine: "Greek",
+    emoji: "🇬🇷",
+    blurb:
+      "A Greektown institution since 1971 built for groups — multiple dining rooms, generous plates, and great value just west of downtown.",
+    price: "$$",
+    website: "https://greekislands.net/",
+    mapQuery: "Greek Islands Restaurant 200 S Halsted St Chicago",
+  },
+  {
+    title: "Pequod's Pizza",
+    area: "Lincoln Park",
+    cuisine: "Deep-dish pizza",
+    emoji: "🍕",
+    blurb:
+      "Famous for its caramelized-cheese crust and a local favorite. Casual, walk-in friendly, and a couple of pies feed the table cheaply.",
+    price: "$$",
+    website: "https://pequodspizza.com/chicago/",
+    mapQuery: "Pequod's Pizza 2207 N Clybourn Ave Chicago",
+  },
+  {
+    title: "The Gage",
+    area: "The Loop · Michigan Ave",
+    cuisine: "Gastropub",
+    emoji: "🍻",
+    blurb:
+      "A lively gastropub right across from Millennium Park — a slightly nicer night out that still handles groups well. Great for after The Bean.",
+    price: "$$–$$$",
+    website: "https://thegagechicago.com/",
+    mapQuery: "The Gage 24 S Michigan Ave Chicago",
+  },
+  {
+    title: "Tempo Cafe",
+    area: "Gold Coast",
+    cuisine: "Diner · all-day",
+    emoji: "🍳",
+    blurb:
+      "A beloved Gold Coast diner with a huge menu and budget prices. Casual and walk-in easy — best for an early group dinner (closes 8 PM).",
+    price: "$",
+    website: "https://tempochicago.com/",
+    mapQuery: "Tempo Cafe 6 E Chestnut St Chicago",
   },
 ];
